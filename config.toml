@@ -1,0 +1,67 @@
+baseURL = "https://ryotakx.github.io/"
+title = "故我依然"
+theme = "hugo-notepadium"
+copyright = "©2020 Weiran Li."
+
+languageCode = "zh-cn"  # for the RSS generation
+defaultContentLanguage = "zh-cn"
+
+hasCJKLanguage = true
+
+enableRobotsTXT = true
+
+# Enable Disqus
+# disqusShortname = "weiran"
+
+# Google Analytics
+#googleAnalytics = "UA-123-45"
+
+[markup.highlight]
+codeFences = true
+noClasses = false
+
+[markup.goldmark.renderer]
+unsafe = true  # enable raw HTML in Markdown
+
+[params]
+style = "auto"  # default: auto. light: light theme, dark: dark theme, auto: based on system.
+dateFormat = ""  # if unset, default is "2006-01-02"
+readingTime = true  # show reading time after article date
+logo = "favicon.ico"
+slogan = "Keep Alive."
+#license = "<a rel=license href=http://creativecommons.org/licenses/by-nc-sa/4.0/><img alt=Creative Commons License style=border-width:0 src=https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png /></a><br />This work is licensed under a <a rel=license href=http://creativecommons.org/licenses/by-nc-sa/4.0/>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>."
+
+[params.assets]
+css = ["css/fonts.css"]
+
+[params.comments]
+enable = false  # En/Disable comments globally, default: false. You can always enable comments on per page.
+
+[params.math]
+enable = true # load math globally, default: false. You can always enable math on per page.
+use = "katex"  # builtin: "katex", "mathjax".  default: "katex"
+
+[params.syntax]
+use = "hljs"  # builtin: "prismjs", "hljs". "none" means Chroma
+theme = "dracula"
+darkTheme = "xcode-dark"
+
+[params.nav]
+showCategories = true       # /categories/
+showTags = true             # /tags/
+
+[[params.nav.custom]]
+title = "Blog"
+url = "/"
+
+[[params.nav.custom]]
+title = "Tag"
+url = "/tags/"
+
+[[params.nav.custom]]
+title = "Catagory"
+url = "/categories/"
+
+[[params.nav.custom]]
+title = "About"
+url = "/about/"

@@ -27,12 +27,27 @@ unsafe = true  # enable raw HTML in Markdown
 style = "auto"  # default: auto. light: light theme, dark: dark theme, auto: based on system.
 dateFormat = ""  # if unset, default is "2006-01-02"
 readingTime = true  # show reading time after article date
-logo = "favicon.ico"
-slogan = "Keep Alive."
+logo = ""
+slogan = "Keep Thinking. &nbsp;&nbsp;Keep Alive."
 #license = "<a rel=license href=http://creativecommons.org/licenses/by-nc-sa/4.0/><img alt=Creative Commons License style=border-width:0 src=https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png /></a><br />This work is licensed under a <a rel=license href=http://creativecommons.org/licenses/by-nc-sa/4.0/>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>."
 
 [params.assets]
 css = ["css/fonts.css"]
+
+# Valine.
+# You can get your appid and appkey from https://leancloud.cn
+# more info please open https://valine.js.org
+[params.valine]
+enable = true
+appId = 'kjwpiNTfLzkmJNATfug9IPU3-MdYXbMMI'
+appKey = 'CjHFAFK21dOuOiK2bU1qGXtx'
+notify = false  # mail notifier , https://github.com/xCss/Valine/wiki
+verify = false # Verification code
+avatar = 'mm' 
+placeholder = '有想法...'
+visitor = true
+# meta = ['nick','mail','link']
+meta = ['nick','mail']
 
 [params.comments]
 enable = false  # En/Disable comments globally, default: false. You can always enable comments on per page.
@@ -43,25 +58,25 @@ use = "katex"  # builtin: "katex", "mathjax".  default: "katex"
 
 [params.syntax]
 use = "hljs"  # builtin: "prismjs", "hljs". "none" means Chroma
-theme = "dracula"
-darkTheme = "xcode-dark"
+theme = "xcode"
+darkTheme = "dracula"
 
 [params.nav]
 showCategories = true       # /categories/
 showTags = true             # /tags/
 
 [[params.nav.custom]]
-title = "Blog"
+title = "文章"
 url = "/"
 
 [[params.nav.custom]]
-title = "Tag"
+title = "标签"
 url = "/tags/"
 
 [[params.nav.custom]]
-title = "Catagory"
+title = "目录"
 url = "/categories/"
 
 [[params.nav.custom]]
-title = "About"
+title = "关于我"
 url = "/about/"

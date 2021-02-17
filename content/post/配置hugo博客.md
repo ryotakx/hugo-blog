@@ -25,7 +25,7 @@ hugo version
 ```
 
 <h2>2. 配置工程</h2>
-我这里选择了[hugo-notepadium](https://github.com/ryotakx/hugo-notepadium)主题。为了之后进一步的修改，我先fork了一份到我的github。这里用了git的submodule模块来管理子模块依赖，我在另一篇文章里介绍。
+我这里选择了[hugo-notepadium](https://github.com/ryotakx/hugo-notepadium/)主题。为了之后进一步的修改，我先fork了一份到我的github。这里用了git的submodule模块来管理子模块依赖，我在另一篇文章里介绍。
 
 ```bash
 hugo new site hugo-blog

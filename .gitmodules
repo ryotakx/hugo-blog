@@ -1,3 +1,6 @@
 [submodule "themes/hugo-notepadium"]
 	path = themes/hugo-notepadium
 	url = https://github.com/ryotakx/hugo-notepadium.git
+[submodule "hugo-site"]
+        path = public
+        url = https://github.com/ryotakx/ryotakx.github.io.git

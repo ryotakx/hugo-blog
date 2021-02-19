@@ -47,7 +47,7 @@ PicGo： https://github.com/Molunerfinn/PicGo
 
 然后在typora设置一下就可以了。
 
-<img src="http://lwrnas1.myqnapcloud.cn:2369/images/2020/10/21/ME97T5VDTCU5YNKP.png" alt="ME97T5VDTCU5YNKP" style="zoom: 80%;" /> 
+<img src="http://pic.weiran97.cn/pics/20210219-ac9bf59272ca11eba6bfacde48001122.png" alt="ME97T5VDTCU5YNKP" style="zoom: 80%;" /> 
 
 #### 4. mac端的设置
 
@@ -78,7 +78,7 @@ Bodys
 
 mac端的为知笔记客户端也是残废的状态，不能使用外部编辑器，我们可以用第三方客户端 https://github.com/altairwei/WizNotePlus，并把外部编辑器设置如下：
 
-![Screen Shot 2020-10-22 at 12.12.02 AM](http://lwrnas1.myqnapcloud.cn:2369/images/2020/10/22/Screen-Shot-2020-10-22-at-12.12.02-AM.png)
+<img src="http://pic.weiran97.cn/pics/20210219-bb6864e872ca11eba7e8acde48001122.png" alt="Screen Shot 2020-10-22 at 12.12.02 AM" style="zoom:50%;" />
 
 折腾完成，大功告成。
 
